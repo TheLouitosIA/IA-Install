@@ -62,3 +62,29 @@ Llama est un modèle de Meta conçu pour être efficace et accessible.
 Entraînement : On expose le modèle à des phrases pour qu'il apprenne les relations entre les mots.
 Fine-tuning : Pour spécialiser le modèle sur un domaine, on le réentraîne avec des données spécifiques.
 Cette première étape est importante pour bien comprendre ce que l’on va faire dans les étapes suivantes. L’idée est de savoir pourquoi on entraîne le modèle, ce qu’on cherche à atteindre, et comment on le fait.
+
+Étape 2 : Préparer Ton Environnement
+Pour travailler sur un projet d’IA de reconnaissance de plaques d’immatriculation, tu dois préparer un environnement de développement adapté. Cette étape couvre la mise en place des outils nécessaires, y compris Python et des bibliothèques spécialisées pour le traitement des images et l’entraînement du modèle Llama.
+
+Sous-étape 2.1 : Comprendre les Besoins
+Pour reconnaître des plaques d’immatriculation, il te faut une solution hybride : une combinaison de reconnaissance de texte (OCR) et de Llama, qui sera entraîné pour bien comprendre les informations extraites des plaques et les traiter de manière intelligente. Voici comment ces deux parties se compléteront :
+
+OCR (Optical Character Recognition) : Cette partie permet d'extraire le texte de l'image, c'est-à-dire les numéros et les lettres des plaques.
+Llama : Llama va être utilisé pour interpréter ces informations et répondre à des questions ou fournir des analyses.
+Sous-étape 2.2 : Outils et Technologies Nécessaires
+Voici la liste des outils que tu devras installer pour configurer ton environnement :
+
+Python : C’est le langage principal pour l’IA et le machine learning.
+PyTorch : Bibliothèque de machine learning utilisée pour entraîner et utiliser des modèles comme Llama.
+Google Colab (ou Jupyter Notebook) : Un environnement de développement facile d’utilisation, qui te permettra d’exécuter du code dans le cloud (Colab est recommandé si tu ne veux pas configurer ton propre ordinateur).
+Bibliothèques de Traitement d’Images :
+OpenCV : Une bibliothèque populaire pour le traitement d’images qui sera utilisée pour manipuler les images des plaques.
+Tesseract OCR : Un outil pour extraire le texte des images.
+Sous-étape 2.3 : Installation de l’Environnement
+Pour démarrer, tu vas installer toutes ces bibliothèques. Voici les étapes pour le faire :
+
+2.3.1 Installation de Python
+Si tu n’as pas encore installé Python, tu peux le télécharger sur python.org/downloads.
+Assure-toi d’ajouter Python à ton PATH lors de l’installation (c’est une case à cocher pendant l'installation).
+2.3.2 Installation de PyTorch
+PyTorch est utilisé pour entraîner Llama. Pour l'installer, exécute la commande suivante dans ton terminal ou dans Colab :
