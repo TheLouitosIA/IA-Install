@@ -19,3 +19,9 @@ Pour extraire le texte des plaques, tu auras besoin de deux outils : OpenCV pour
 
 Pour installer Tesseract sur Windows, tu peux suivre les instructions ici :
 Pour Windows : **https://github.com/UB-Mannheim/tesseract/wiki**
+
+Ensuite, installe le module Python pour utiliser Tesseract :
+**pip install pytesseract**
+
+Vérifier les Installations
+Pour être sûr que tout fonctionne correctement, tu peux exécuter le code suivant dans un script Python ou Google Colab. Cela va vérifier les principales installations :
